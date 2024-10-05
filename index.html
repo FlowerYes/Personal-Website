@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ryan Ouardaoui
+        </title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+
+
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class = "logo">Ryan Ouardaoui</div>
+        <div>
+            <ul class = 'nav-links'>
+                <li><a href="#about"> About</a></li>
+                <li><a href="#experience"> experience</a></li>
+                <li><a href="#projects"> project</a></li>
+                <li><a href="#contact"> contact</a></li>
+                <li><a href="#hobbies"> hobbies</a></li>
+
+            </ul>   
+        </div>
+    </nav>
+    <nav id = "hamburger-nav">
+        <div class = "logo">Ryan Ouardaoui</div>
+        <div class = "hamburger-menu">
+            <div class="hamburger-icon" onclick = "toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+            <div class = "menu-links">
+                <li><a href="#about" onclick = "toggleMenu()"> About</a></li>
+                <li><a href="#experience" onclick = "toggleMenu()"> experience</a></li>
+                <li><a href="#projects" onclick = "toggleMenu()"> project</a></li>
+                <li><a href="#contact" onclick = "toggleMenu()"> contact</a></li>
+                <li><a href="#hobbies" onclick = "toggleMenu()"> hobbies</a></li>
+
+            </div>    
+        </div>
+
+    
+    
+    </nav>
+    <section id = "profile">
+        <div class = "section__pic-container">
+            <img src="assets/profile.png" alt="My profile picture">
+        </div>
+        <div class = "section__text">
+            <p class = "section__text_p1">
+            hello I'm
+            </p>
+            <h1 class = "title"> Ryan Ouardaoui</h1>
+            <p class = "section__text_p2">Developper</p>
+            <div class = "btn-container">
+                <button class = "btn btn-color2" onclick = "window.open('https://livestetson-my.sharepoint.com/:w:/g/personal/rouardaoui_stetson_edu/EV2JP7mljNdGgMr7Nz6JGYsBeqVS6lnMbFQouuOHdFgKOw?e=lHXQ5z')">Download Resume</button>
+                <button class = "btn btn-color1" onclick = "location.href = './#contact'">Contact</button>
+
+            </div>
+            <div id = "socials-container">
+                <img src="./assets/LinkedIn.png" alt="My linkedin profile" class="icon" onclick="location.href= 'https://www.linkedin.com/in/ryan-ouardaoui-b62050325/'">
+                <img src="./assets/Github.png" alt="My Github" class="icon" onclick="location.href= 'https://github.com/FlowerYes'">
+
+                
+
+            </div>
+        </div>
+    </section>
+    <section id = "about">
+        <p class = "section__text_p1">Get to know more</p>
+        <h1 class = "title">About me</h1>
+        <div class = "section-container">
+            <div class = "section__pic-container">  
+                <img src="./assets/about-pic.png" alt="profile picture" class="about-pic">
+            </div>
+            <div class = "about-details-container">
+                <div class="about-containers">
+                    <div class = "details-container">
+                        <img src="./assets/experience.png" alt="experience icon" class ="icon">
+                        <h3>Experience</h3>
+                        <p>3+years <br>Python experience</p>
+                    </div>
+                    <div class = "details-container">
+                        <img src="./assets/education.png" alt="experience icon" class ="icon">
+                        <h3>Education</h3>
+                        <p>Stetson University<br>B.S in cs class of 2028</p>
+                    </div>
+                </div>
+                <div class ="text-containter">
+                    <p>
+                    I have also studied in a french school called Al jabr in Morocco.
+                          
+                    </p>
+
+                    
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class = "arrow" onclick="location.href='./#experience'">
+
+    </section>
+    <section id = "experience">
+        <p class = "section__text_p1">Explore My</p>
+        <h1 class = "title">Experience</h1>
+        <div class = "experience-details-container">
+            <div class = "about-containers">
+                <div class = "details-container">
+                    <h2 class = "experience-sub-title">Frontend development</h2>
+                    <div class = "article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class ="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class ="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class ="icon">
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>intermidiate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class ="icon">
+                            <div>
+                                <h3>React-Native</h3>
+                                <p>intermidiate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class ="icon">
+                            <div>
+                                <h3>SASS</h3>
+                                <p>beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class ="icon">
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>beginner</p>
+                            </div>
+                        </article>
+                    
+                    </div>
+                </div>
+                <div class = "details-container">
+                    <h2 class = "experience-sub-title">Game/other development</h2>
+                    <div class = "article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class ="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class ="icon">
+                            <div>
+                                <h3>C#</h3>
+                                <p>experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class ="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>intermidiate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class ="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>intermidiate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class ="icon">
+                            <div>
+                                <h3>GIT</h3>
+                                <p>beginner</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class = "arrow" onclick="location.href='./#experience'">
+
+    </section>
+    <section id = projects>
+        <p class = "section__text_p1">Browse my recent</p>
+        <h1 class = "title">Projects</h1>
+        <div class = "experience-details-container">
+            <div class = "about-containers">
+                <div class = "details-container color-container">
+                    <div class = article-container>
+                        <img src="./assets/project-1.png" alt="project 1" class = "project-img">
+
+                    </div>
+                    <h2 class = "experience-subt-title project-title">Project One</h2>
+                    <div class = "btn-container">
+                        <button class = "btn btn-color2 project-btn" onclick ="location.href ='github.com/FlowerYes/Chess'">Github</button>
+
+                    </div>
+                </div>
+                <div class = "details-container color-container">
+                    <div class = article-container>
+                        <img src="./assets/project-1.png" alt="project 1" class = "project-img">
+
+                    </div>
+                    <h2 class = "experience-subt-title project-title">Project two</h2>
+                    <div class = "btn-container">
+                    <button class = "btn btn-color2 project-btn" onclick ="location.href ='github.com/FlowerYes/YoDakchiPro'">Github</button>
+
+                </div>
+                </div>
+                <div class = "details-container color-container">
+                    <div class = article-container>
+                        <img src="./assets/project-1.png" alt="project 1" class = "project-img">
+
+                    </div>
+                    <h2 class = "experience-subt-title project-title">Project three</h2>
+                    <div class = "btn-container">
+                        <button class = "btn btn-color2 project-btn" onclick ="location.href ='github.com/FlowerYes/To-Do-List'">Github</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class = "arrow" onclick="location.href='./#experience'">
+
+    </section>
+    <section id = "hobbies">
+        <p class = "section__text_p1">More about</p>
+        <h1 class="title">Ryan</h1>
+        <div class ="hobbies-details-container">
+            <div class = "about-containers">
+                <div class = "details-container pp">
+                    <div class = "article-container">
+                        <article>
+                            <img src="./assets/guts.png" alt="guts picture" class="hobbies-picture">
+                            <h3 class = "sarticle">manga is how I relax</h3>
+                            <p class = "sarticle">My favorite manga is Berserk</p>
+                        </article>
+                    </div>
+                </div>
+                <div class = "details-container pp">
+                    <div class ="article-container">
+                        <article>
+                        <img src="./assets/squat.jpg" alt="squat picture" class = "hobbies-picture">
+                        <h3 class = "sarticle">Weightlifting is food for the soul</h3>
+                        <p class = "sarticle">My favorite exercise is the king of all exercises: the squat</p>
+                        </article>
+                    </div>
+                </div>
+                <div class = "details-container pp">
+                    <div class = "article-container">
+                        <article>
+                            <img src="./assets/chart.jpg" alt="chart" class ="hobbies-picture">
+                            <h3 class = "sarticle">I recreationally study economics and finance</h3>
+                            <p class = "sarticle">I taught economics in my Highschool!</p>
+                        </article>
+        
+                    </div>
+
+                </div>
+   
+            </div>
+
+       
+        </div>
+        <div class = "text-containter ccd">Fun fact about me: I can speak five languages
+            <p>English, french, Arabic and Tachelhit </p>
+            <h1 class ="whisper">and a touch of japanese</h1>
+        </div>
+        
+    </section>
+    <section id = "contact">
+        <p class = "section__text_p1">Get in touch</p>
+        <h1 class = 'title'>Contact me</h1>
+        <div class = "contact-info-upper-container">
+            <div class = "contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class = "icon contact-ico email-icon">
+                <p><a href="mailto:rouardaoui@stetson.edu">rouardaoui@stetson.edu</a></p>
+            </div>
+            <div class = "contact-info-container">
+                <img src="./assets/LinkedIn.png" alt="linkedin icon" class = "icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/ryan-ouardaoui-b62050325/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+  
+    <footer>
+        <nav>
+            <div class = "nav-links-container">
+                <ul class = 'nav-links'>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#experience"> experience</a></li>
+                    <li><a href="#projects"> project</a></li>
+                    <li><a href="#contact"> contact</a></li>
+                    <li><a href="#hobbies"> hobbies</a></li>
+    
+                </ul>   
+            </div>
+        </nav>
+        <p>CopyRigh &#169; Ryan Ouardaoui. All Rights Reserved </p>
+    </footer>
+
+
+    <script src = "script.js"></script>
+</body>
+</html>
